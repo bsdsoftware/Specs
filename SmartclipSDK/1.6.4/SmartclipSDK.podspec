@@ -1,13 +1,17 @@
 Pod::Spec.new do |s|
   s.name             = "SmartclipSDK"
   s.version          = "1.6.4"
-  s.summary          = "SDK per i banner video di Smartclip"
+  s.summary          = "SDK Smartclip"
   s.description		 = "SDK per i banner video di Smartclip"
-  s.license          = "MIT"
-  s.author           = "Smartclip"
-  s.source           = { :git => "https://github.com/bsdsoftware/SmartclipSDK.git", :tag => "1.6.4" }
+  s.license          = "Copyright"
   s.homepage         = "http://www.smartclip.com/it"
-  s.platform     = :ios
-  s.requires_arc = false
-  s.source_files = 'SCInstreamSDK.framework/Versions/A/Headers/*.h'
+  s.author           = "Smartclip"
+  
+  s.source             = { :git => "https://github.com/bsdsoftware/SmartclipSDK.git", :tag => "1.6.4" }
+  s.platform           = :ios
+  s.requires_arc       = false
+  s.ios.xcconfig       =  { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/SmartclipSDK"' }
+  s.ios.preserve_paths =  'SCInstreamSDK.framework'
+  s.frameworks         = 'AVFoundation', 'ImageIO', 'CoreTelephony', 'Social', 'MessageUI', 'SystemConfiguration', 'CoreMedia'
+  s.library            = 'xml2'
 end
