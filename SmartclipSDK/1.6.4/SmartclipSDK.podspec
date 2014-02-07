@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
                             'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }  
   s.source_files = 'SCInstreamSDK.framework/Versions/A/Headers/*.h'
   s.ios.preserve_paths =  'SCInstreamSDK.framework/*'
-  s.frameworks         = 'SCInstreamSDK', 'EventKit', 'AVFoundation', 'ImageIO', 'CoreTelephony', 'Social', 'MessageUI', 'SystemConfiguration', 'CoreMedia'
+  s.frameworks         = 'SCInstreamSDK', 'EventKit', 'EventKitUI', 'AVFoundation', 'ImageIO', 'CoreTelephony', 'Social', 'MessageUI', 'SystemConfiguration', 'CoreMedia'
   s.library            = 'xml2'
 end
