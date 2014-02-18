@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "RKiOS7Loading"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "RKiOS7Loading hud"
   s.description		 = "iOS 7 style loading/progress hud"
   s.license      = {
