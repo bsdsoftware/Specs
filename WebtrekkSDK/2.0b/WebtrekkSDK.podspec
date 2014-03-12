@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = "Webtrekk"
+  s.name             = "WebtrekkSDK"
   s.version          = "2.0b"
   s.summary          = "SDK Webtrekk (Beta)"
   s.description		 = "Servizio contatore di accessi alle aree di un applicazione"
