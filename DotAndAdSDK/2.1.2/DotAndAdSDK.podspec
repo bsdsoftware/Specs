@@ -18,5 +18,5 @@ Pod::Spec.new do |s|
   s.ios.xcconfig       =  { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/DotAndAdSDK"'}  
   s.source_files = 'MASTAdView.framework/Versions/A/Headers/*.h'
   s.ios.preserve_paths =  'MASTAdView.framework/*'
-  s.frameworks         = 'MASTAdView', 'AdSupport'
+  s.frameworks         = 'MASTAdView', 'AdSupport', 'CoreLocation'
 end
