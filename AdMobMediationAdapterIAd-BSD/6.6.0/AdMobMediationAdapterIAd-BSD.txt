@@ -25,7 +25,7 @@
   "libraries": "AdapterIAd",
   "xcconfig": {
     "OTHER_LDFLAGS": "-ObjC",
-    "LIBRARY_SEARCH_PATHS": "\"$(PODS_ROOT)/AdMobMediationAdapterIAd/\""
+    "LIBRARY_SEARCH_PATHS": "\"$(PODS_ROOT)/AdMobMediationAdapterIAd-BSD/\""
   },
   "requires_arc": false
 }
