@@ -1,6 +1,6 @@
 {
   "name": "AdMobMediationAdapterIAd-BSD",
-  "version": "6.6.0-nodep",
+  "version": "6.6.1",
   "summary": "AdMob Mediation Adapter for iAd Network.",
   "description": "By default mediation adapters are not included into iOS AdMob SDK. Each mediation network other than AdMob requries additional library component. This is iAd mediation adapter library, provided by Google.",
   "homepage": "https://developers.google.com/mobile-ads-sdk/ad-network-mediation",
