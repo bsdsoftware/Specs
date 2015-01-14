@@ -22,7 +22,7 @@
 
     ]
   },
-  "libraries": "AdapterIAd",
+  "libraries": "AdapterFacebook",
   "xcconfig": {
     "OTHER_LDFLAGS": "-ObjC",
     "LIBRARY_SEARCH_PATHS": "\"$(PODS_ROOT)/AdMobMediationAdapterFacebook/\""
