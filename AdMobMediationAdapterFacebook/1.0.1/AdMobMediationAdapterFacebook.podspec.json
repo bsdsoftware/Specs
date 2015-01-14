@@ -1,0 +1,31 @@
+{
+  "name": "AdMobMediationAdapterFacebook",
+  "version": "1.0.1",
+  "summary": "AdMob Mediation Adapter for Facebook Network.",
+  "description": "By default mediation adapters are not included into iOS AdMob SDK. Each mediation network other than AdMob requries additional library component. This is Facebook mediation adapter library, provided by Google.",
+  "homepage": "https://developers.google.com/mobile-ads-sdk/docs/dfp/android/mediation-networks",
+  "license": {
+    "type": "Copyright",
+    "text": "Copyright 2009 - 2015 Google, Inc. All rights reserved.\n"
+  },
+  "authors": "Google Inc.",
+  "source": {
+    "http": "https://dl.google.com/dl/googleadmobadssdk/libadapterfacebook.zip",
+    "flatten": true
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "preserve_paths": "libAdapterFacebook.a",
+  "dependencies": {
+    "Google-Mobile-Ads-SDK": [
+
+    ]
+  },
+  "libraries": "AdapterIAd",
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC",
+    "LIBRARY_SEARCH_PATHS": "\"$(PODS_ROOT)/AdMobMediationAdapterFacebook/\""
+  },
+  "requires_arc": false
+}
