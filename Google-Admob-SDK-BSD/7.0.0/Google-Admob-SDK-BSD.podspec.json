@@ -10,15 +10,16 @@
   },
   "authors": "Google Inc.",
   "source": {
-    "http": "https://github.com/bsdsoftware/AdMob/archive/7.0.0.zip"
+    "git": "https://github.com/bsdsoftware/AdMob.git",
+    "tag": "7.0.0"
   },
   "platforms": {
     "ios": "6.0"
   },
   "source_files": [
-    "AdMob-7.0.0/GoogleMobileAds.framework/Versions/A/Headers/*.h"
+    "GoogleMobileAds.framework/Versions/A/Headers/*.h"
   ],
-  "preserve_paths": "AdMob-7.0.0/GoogleMobileAds.framework/*",
+  "preserve_paths": "GoogleMobileAds.framework/*",
   "frameworks": [
   	"GoogleMobileAds",
     "AVFoundation",
@@ -33,7 +34,7 @@
     "EventKitUI"
   ],
   "xcconfig": {
-    "LIBRARY_SEARCH_PATHS": "\"$(PODS_ROOT)/Google-Admob-SDK-BSD/7.0.0\""
+    "LIBRARY_SEARCH_PATHS": "\"$(PODS_ROOT)/Google-Admob-SDK-BSD/\""
   },
   "requires_arc": false
 }
