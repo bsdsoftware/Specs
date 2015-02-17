@@ -19,7 +19,7 @@
   "source_files": [
     "GoogleMobileAds.framework/Versions/A/Headers/*.h",
     "GoogleMobileAds.framework/Versions/A/Headers/Mediation/*.h",
-    "GoogleMobileAds.framework/Versions/A/Headers/Search/*.h",
+    "GoogleMobileAds.framework/Versions/A/Headers/Search/*.h"
   ],
   "preserve_paths": "GoogleMobileAds.framework/*",
   "frameworks": [
