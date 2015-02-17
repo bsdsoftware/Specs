@@ -1,0 +1,39 @@
+{
+  "name": "Google-Admob-SDK-BSD",
+  "version": "7.0.0",
+  "summary": "Google AdMob Ads SDK.",
+  "description": "The Google AdMob Ads SDK allows developers to easily incorporate mobile-friendly text and image banners as well as rich, full-screen web apps known as interstitials.",
+  "homepage": "https://developers.google.com/mobile-ads-sdk/docs/",
+  "license": {
+    "type": "Copyright",
+    "text": "Copyright 2009 - 2014 Google, Inc. All rights reserved.\n"
+  },
+  "authors": "Google Inc.",
+  "source": {
+    "http": "https://github.com/bsdsoftware/AdMob/archive/7.0.0.zip"
+  },
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source_files": [
+    "AdMob-7.0.0/GoogleMobileAds.framework/Versions/A/Headers/*.h"
+  ],
+  "preserve_paths": "AdMob-7.0.0/GoogleMobileAds.framework/*",
+  "frameworks": [
+  	"GoogleMobileAds",
+    "AVFoundation",
+    "AudioToolbox",
+    "CoreTelephony",
+    "MessageUI",
+    "SystemConfiguration",
+    "CoreGraphics",
+    "AdSupport",
+    "StoreKit",
+    "EventKit",
+    "EventKitUI"
+  ],
+  "xcconfig": {
+    "LIBRARY_SEARCH_PATHS": "\"$(PODS_ROOT)/Google-Admob-SDK-BSD/7.0.0\""
+  },
+  "requires_arc": false
+}
