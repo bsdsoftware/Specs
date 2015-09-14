@@ -1,0 +1,24 @@
+{
+  "name": "BSDParallaxViewController",
+  "version": "0.1",
+  "summary": "BSD Parallax View Controller",
+  "description": "View Controller con effetto Parallax",
+  "homepage": "https://github.com/bsdsoftware/BSDParallaxViewController",
+  "license": "GPL2",
+  "authors": "Simone Fantini",
+  "source": {
+    "git": "https://github.com/bsdsoftware/BSDParallaxViewController.git",
+    "tag": "0.1"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": [
+    "BSDParallaxViewController/Parallax/*.{h,m}"
+  ],
+  "frameworks": [
+  ],
+  "xcconfig": {
+  },
+  "requires_arc": true
+}
