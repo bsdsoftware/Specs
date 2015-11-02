@@ -24,7 +24,7 @@
 	"BSDDynamicForm/Costanti.m"
   ],
   "resources":[
-  	"BSDDynamicForm/Base.lproj/Main.storyboard"
+  	"BSDDynamicForm/Base.lproj/BSDDynamicForm.storyboard"
   ],
   "preserve_paths": "BSDDynamicForm/*",
   "frameworks": [
