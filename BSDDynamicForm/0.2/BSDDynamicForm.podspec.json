@@ -1,0 +1,40 @@
+{
+  "name": "BSDDynamicForm",
+  "version": "0.2",
+  "summary": "BSD Dynamic Form",
+  "description": "Basic dynamic form manager",
+  "homepage": "https://github.com/bsdsoftware/BSDDynamicForm",
+  "license": "GPL2",
+  "authors": "Alessandro Sama",
+  "source": {
+    "git": "https://github.com/bsdsoftware/BSDDynamicForm.git",
+    "tag": "0.2"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": [
+    "BSDDynamicForm/Controller/*.h",
+    "BSDDynamicForm/Controller/*.m",
+	"BSDDynamicForm/CellType/*.h",
+	"BSDDynamicForm/CellType/*.m",
+	"BSDDynamicForm/Models/*.h",
+	"BSDDynamicForm/Models/*.m",
+	"BSDDynamicForm/Costanti.h",
+	"BSDDynamicForm/Costanti.m"
+  ],
+  "resources":[
+  	"BSDDynamicForm/Base.lproj/Main.storyboard"
+  ],
+  "preserve_paths": "BSDDynamicForm/*",
+  "frameworks": [
+  ],
+   "dependencies": {
+        "ActionSheetPicker-3.0": [
+
+        ]
+  },
+  "xcconfig": {
+  },
+  "requires_arc": true
+}
